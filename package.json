@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Demo project using playwright to stay on top of things",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "codegen": "npx playwright codegen https://takealot.com"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/maxandrezils/playwright-demo-project.git"
