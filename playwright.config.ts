@@ -1,5 +1,5 @@
-import type { PlaywrightTestConfig } from '@playwright/test';
-import { devices } from '@playwright/test';
+import type { PlaywrightTestConfig } from '@playwright/test'
+import { devices } from '@playwright/test'
 
 /**
  * Read environment variables from file.
@@ -45,7 +45,7 @@ const config: PlaywrightTestConfig = {
     {
       name: 'chromium',
       use: {
-        headless: false,
+        headless: true,
         ...devices['Desktop Chrome'],
       },
     },
@@ -101,6 +101,6 @@ const config: PlaywrightTestConfig = {
   //   command: 'npm run start',
   //   port: 3000,
   // },
-};
+}
 
-export default config;
+export default config
