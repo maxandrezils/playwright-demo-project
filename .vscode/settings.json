@@ -1,6 +1,7 @@
 {
   "conventionalCommits.scopes": [
     "Visial",
-    "Visual"
+    "Visual",
+    "Login"
   ]
 }
